@@ -7,7 +7,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { OfferservicesComponent } from './offerservices/offerservices.component';
 import { TracermapComponent } from './tracermap/tracermap.component';
 import { SingleofferComponent } from './offerservices/singleoffer/singleoffer.component';
-
+import { AgmCoreModule } from '@agm/core'
 
 @NgModule({
   declarations: [
