@@ -6,7 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { OfferservicesComponent } from './offerservices/offerservices.component';
 import { TracermapComponent } from './tracermap/tracermap.component';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { SingleofferComponent } from './offerservices/singleoffer/singleoffer.component';
 
 
 @NgModule({
@@ -16,10 +16,10 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     CarouselComponent,
     OfferservicesComponent,
     TracermapComponent,
+    SingleofferComponent,
   ],
   imports: [
     BrowserModule,
-    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
