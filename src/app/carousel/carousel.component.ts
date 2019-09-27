@@ -9,9 +9,9 @@ import 'bootstrap';
 export class CarouselComponent implements OnInit {
 
   images: String[] = [
-    '../../assets/images/MF7722S_Muck-Spreader_MF6715S_FL.4621_FR_0717-2241_137301.jpg',
-    '../../assets/images/MF7722S_Muck-Spreader_MF6715S_FL.4621_FR_0717-2241_137301.jpg',
-    '../../assets/images/MF7722S_Muck-Spreader_MF6715S_FL.4621_FR_0717-2241_137301.jpg',
+    '/assets/images/ms1.jpg',
+    '/assets/images/ms2.jpg',
+    '/assets/images/ms4.jpg',
   ];
 
   constructor() {

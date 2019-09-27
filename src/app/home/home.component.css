@@ -1,0 +1,9 @@
+.row {
+  color: white;
+}
+
+.home-main {
+  background-color: rgba(128, 0, 0, 0.2);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}

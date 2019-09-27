@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Offer } from '../offer.model';
 
 @Component({
   selector: 'app-singleoffer',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./singleoffer.component.css']
 })
 export class SingleofferComponent implements OnInit {
+
+  public isCollapsed = true;
 
   constructor() { }
 
